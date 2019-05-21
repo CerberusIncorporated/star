@@ -1,0 +1,92 @@
+#about ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
+#about a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#30A8E6; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#about a:hover {
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+#about li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+#about .active a{
+background-color:#7bc706;
+}
+h1.about {
+text-align: center;
+text-decoration: blink;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: fantasy;
+}
+h3.scenario {
+    font-size: 120%;
+    font-family:monospace;
+    color:black;
+    font-weight:900;
+	 opacity: 1;
+ 	 
+   }
+.text {
+    opacity: 0.7;
+ 	 background:aliceblue; /* Цвет фона */ 
+    width: 98%;
+    height:auto;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+}
+ table {
+    width: 100%; /* Ширина таблицы */
+    background: black; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+   }
+   td, th {
+    background:#8E6DD7; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+   }
+
+  #texxt {
+font-size: 110%; /* Размер шрифта в процентах */ 
+text-indent: 20px;
+font-weight:600;      
+}
+.texxt {
+    opacity: 0.7;
+ 	 background:aliceblue; /* Цвет фона */ 
+    width: auto%;
+    height:70%;
+    padding: 5px;
+    border: solid 1px black; 
+margin: 25px 50px;
+}
+.texxt a {
+    color:#1558c4;
+    font-family: serif;
+}
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.8;
+position:fixed;
+bottom:50px;
+right:15px;
+display:none;
+text-indent:-9999px;
+background: url(../scripts/icon_top.png) no-repeat;
+}

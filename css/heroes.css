@@ -1,0 +1,59 @@
+#heroes ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
+#heroes a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#30A8E6; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#heroes a:hover {
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+ 
+#heroes li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+#heroes .active a{
+background-color:#7bc706;
+}
+h1{
+	text-align: center;
+font-size: 250%;}
+h1.heroes {
+text-align:center;
+text-decoration: blink;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: fantasy;
+}
+h2{
+    text-align:center;
+text-decoration: blink;
+}
+.text {
+    opacity: 0.7;
+ 	 background:aliceblue; /* Цвет фона */ 
+    width: 98%;
+    height:auto;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+    
+}
+a.photo:hover img{
+   opacity: 0.8;
+}
+.container img {
+    margin: 5px; /* Отступы */
+}
